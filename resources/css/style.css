@@ -1,0 +1,113 @@
+/* --------------------------------------------------------------*/
+/* BASIC SETUP */
+/* --------------------------------------------------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+.container {
+    text-align: justify;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --------------------------------------------------------------*/
+/* REPEATING SETUP */
+/* --------------------------------------------------------------*/
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: rgba(221, 217, 166, 0.43);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+img {
+    margin: 10px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* --------------------------------------------------------------*/
+/* SPECIFIC SETUP */
+/* --------------------------------------------------------------*/
+
+.first-section {
+    display: flex;
+}
+
+.main-paragraph {
+    background-color: antiquewhite;
+    margin-top: 30px;
+    padding: 20px;
+    width: 75%;
+    float: left;
+    margin-right: 20px;
+}
+
+.more-links {
+    background-color: rgba(221, 217, 166, 0.43);
+    width: 25%;
+    float: left;
+    margin-top: 30px;
+    padding: 30px;
+    padding-top: 30px;
+}
+
+.more-links a:link,
+.more-links a:visited {
+    color: black;
+    text-decoration: none;
+}
+.more-links a:hover, 
+.more-links a:active {
+    color: #050557;
+    text-decoration: none;
+}
+
+.second-paragraph {
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.last-paragraph {
+    background-color: rgba(221, 217, 166, 0.43);
+}
+
+.author-image {
+    width: 15%;
+    float: left;
+}
+
+.last-paragraph .author-image img {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.last-paragraph .author-paragraph {
+    width: 25%;
+    float: left;
+    margin-top: 40px;
+    font-size: 15px;
+    font-style: italic;
+    background-color: antiquewhite;
+}
